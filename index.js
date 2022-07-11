@@ -3,7 +3,7 @@ const app = express()
 const port = 5000
 
 const mongoose = require('mongoose')
-mongoose.connect('mongodb+srv://aus1:sydney1@cluster0.7lcyt.mongodb.net/test?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://aus1:sydney1@cluster0.7lcyt.mongodb.net/test?retryWrites=true&w=majority'
 ).then(() => console.log('MongoDB connected...'))
   .catch(err => console.log(err))
 
